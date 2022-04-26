@@ -1,0 +1,81 @@
+.widgetLg {
+  flex: 2;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+}
+
+.widgetLgTitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.widgetLgTable{
+  width: 100%;
+  border-spacing: 20px;
+}
+.widgetLgTr{
+  /* background-color: #3bb077; */
+  
+}
+.widgetLgTh{
+  text-align: left;
+}
+
+.widgetLgUser{
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  border-top: 1px solid black ;
+}
+
+.widgetLgImg {
+  border-top: 1px solid black ;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.widgetLgDate,.widgetLgAmount{
+  font-weight: 300;
+  border-top: 1px solid black ;
+
+}
+.widgetLgStatus{
+  border-top: 1px solid black ;
+
+}
+.widgetLgProducts{
+  border-top: 1px solid black ;
+  justify-content: space-around;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.widgetLgButton {
+  padding: 5px 7px;
+  border: none;
+  border-radius: 10px;
+}
+
+.widgetLgButton.approved{
+    background-color: #e5faf2;
+    color: #3bb077;
+    cursor: pointer;
+}
+.widgetLgButton.declined{
+    background-color: #fff0f1;
+    color: #d95087;
+    cursor: pointer;
+    
+
+}
+.widgetLgButton.pending{
+    background-color: #ebf1fe;
+    color: #2a7ade;
+    cursor: pointer;
+
+}
